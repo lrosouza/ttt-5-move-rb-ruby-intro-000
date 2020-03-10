@@ -10,3 +10,8 @@ end
 def input_to_index(user_input)
 converted_input =  input_to_index(user_input) .to_i - 1
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def move(board, converted_input, user_input)
+  board[converted_input] = user_input
+end
